@@ -8,7 +8,7 @@ from user.views import (
 
 urlpatterns = [
     path(
-        "create/",
+        "register/",
         CreateUserView.as_view(),
         name="create"),
     path(
